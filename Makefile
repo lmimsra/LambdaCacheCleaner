@@ -5,6 +5,6 @@ build:
 	@echo "complete build!"
 
 package: build
-	zip -r deploy.zip cloudFrontInvalidation
+	zip -r deploy.zip cloudFrontInvalidation .env
 	@echo "complete packaging"
 	@echo "please deploy \"deploy.zip\""
